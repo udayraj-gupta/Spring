@@ -29,7 +29,7 @@ import io.swagger.annotations.ApiParam;
 public class EmployeeController {
 	
 	@Autowired
-	private EmployeeService service; 
+	private EmployeeService service;
 	String response;
 	Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 	private static final String SUCCESS = "0";
