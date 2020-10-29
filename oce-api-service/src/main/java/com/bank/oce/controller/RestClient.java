@@ -1,4 +1,4 @@
-package com.hdfcbank.oce.controller;
+package com.bank.oce.controller;
 
 import java.util.concurrent.TimeUnit;
 
@@ -18,10 +18,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 import org.springframework.web.client.RestTemplate;
 
+import com.bank.properties.OcePropertiesBean;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
-import com.hdfcbank.properties.OcePropertiesBean;
 
 @Service
 public class RestClient {

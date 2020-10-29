@@ -1,4 +1,4 @@
-package com.hdfcbank.properties;
+package com.bank.properties;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
