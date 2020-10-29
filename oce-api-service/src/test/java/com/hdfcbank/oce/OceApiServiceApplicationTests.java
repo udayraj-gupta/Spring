@@ -1,4 +1,4 @@
-package com.bank.oce;
+package com.hdfcbank.oce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
